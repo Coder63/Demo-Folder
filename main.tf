@@ -6,7 +6,6 @@ provider "aws" {
 module "VPC" {
   source = "./VPC"
   vpc_cidr= "${var.vpc_cidr}"
-
 }
 
 /*
